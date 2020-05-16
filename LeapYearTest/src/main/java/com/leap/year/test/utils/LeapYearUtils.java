@@ -54,4 +54,16 @@ public class LeapYearUtils {
 		return (year % 4 == 0);
 	
 	}
+	
+	/**
+	 * This method check that given year is greater than zero or not
+	 * 
+	 * @param year
+	 * @return true/false
+	 */
+	public static boolean isGreaterThanZero(final int year) {
+		
+		return (year > 0);
+	
+	}
 }

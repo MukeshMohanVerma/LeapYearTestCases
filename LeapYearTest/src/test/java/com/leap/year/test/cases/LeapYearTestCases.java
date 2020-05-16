@@ -53,4 +53,14 @@ public class LeapYearTestCases {
 		assertEquals(message,  true, status);
 	}
 	
+	/**
+	 * Test case 5 to check given year is greater than zero or not .
+	 */
+	@Test
+	public void yearGreaterThanZeroTest() {
+		String message = "Year must be greater than zero";
+		boolean status = LeapYearUtils.isGreaterThanZero(4);
+		assertEquals(message,  true, status);
+	}
+	
 }
